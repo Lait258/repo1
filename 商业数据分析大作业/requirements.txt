@@ -1,0 +1,13 @@
+# 本项目的全部代码仅依赖 Python 标准库（无第三方依赖），保证任何环境零依赖可复现。
+# 若后续接入真实 Olist 原始数据并改用 pandas/matplotlib 方案，可按需补充以下依赖：
+
+# pandas==2.0.3
+# numpy==1.24.3
+# matplotlib==3.7.1
+# seaborn==0.12.2
+# pyecharts==2.0.4
+# streamlit==1.25.0
+# faker==18.13.0
+
+# 说明：当前实现采用纯标准库（csv/json/math/statistics/sqlite3/datetime）+ 自研 SVG 绘图库，
+# 图表输出为 SVG 矢量图，交互大屏输出为 ECharts HTML（浏览器端渲染，无需后端依赖）。
